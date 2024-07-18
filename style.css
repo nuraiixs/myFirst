@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+h1{
+  padding: 30px;  
+  margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    height: 350px; /*высота блока*/
+    background-color: #77b6f1; /*colour*/
+    color: aliceblue; /*color text*/
+    text-align: center;
+    font-size: 40px;
+
+    background-image: url("https://img.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-shadow: 1px 5px 20px black ;
+}
+main{
+    background-color: rgb(214, 179, 247);
+    color: black;
+    text-align:right ;
+    font-size: 50px;
+    padding: 10px ;
+    display:flex;
+ }
+
+ .left{
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    
+ }
+
+ .right{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    text-align: center;
+ }
+ .video{
+    display:flex;
+ }
+footer{
+    height: 200px;
+    background-color: rgb(246, 151, 255);
+    color: black;
+    text-align: justify;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px ;
+}
+
+.social img{
+    width:100px ;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+}
